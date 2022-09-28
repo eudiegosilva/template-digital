@@ -2,8 +2,10 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 
+import { Button } from 'components';
+
 const Home: NextPage = () => {
-  return <h1>título maroto será?</h1>;
+  return <Button variant="secondary" />;
 };
 
 export default Home;
